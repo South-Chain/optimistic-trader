@@ -14,7 +14,7 @@ For your private key, use the `Export Account` button to copy your URL.
 Take this URL, and use it below to see your private key locally
 
 ```javascript
-const exportLink = 'PASTE YOUR EXPORT ACCOUNT HERE';
+const exportLink = 'https://l2.synthetix.exchange/?account=wish-correct-powder-electric-skirt-brick-motor-strong-auction-brief-scissors-wine';
 console.log(
 	'Private key is',
 	ethers.Wallet.fromMnemonic(exportLink.match(/\?account=(.+)$/)[1].replace(/-/g, ' ')).privateKey,
